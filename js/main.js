@@ -4,4 +4,6 @@ const now = new Date().getTime();
 
 const distance = countdownDate - now;
 
-document.write(distance);
+const days = distance / (1000 * 60 * 60 * 24);
+
+document.write(days);
