@@ -1,0 +1,51 @@
+body {
+  background-image: url("../assets/pemilu5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  background-color: aliceblue;
+  font-size: 55px;
+  padding: 10px;
+  margin: 0 10px;
+  width: 80px;
+  border-radius: 18px;
+  font-family: 'Gobold Bold', sans-serif;
+}
+
+.title {
+  background-color: aliceblue;
+  color: #000;
+  border-radius: 18px;
+  font-size: 35px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.timer-info {
+  color: darkorange;
+  padding: 10px;
+  margin: 0 10px;
+  width: 80px;
+  font-family: 'Gobold Bold', sans-serif;
+}
+
+.button {
+  background-color: #ff5733;
+  color: aliceblue;
+  padding: 10px 35px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
